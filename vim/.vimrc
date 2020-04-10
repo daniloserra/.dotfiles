@@ -1,7 +1,7 @@
 set number
 set relativenumber
 set showcmd
-"set cursorline
+set cursorline
 set nocompatible
 syntax on
 set laststatus=2
