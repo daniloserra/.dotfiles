@@ -1,10 +1,18 @@
+set autoindent
+set cursorline
+set ignorecase
+set laststatus=2
+set nocompatible
 set number
 set relativenumber
 set showcmd
-set cursorline
-set nocompatible
+set showmatch
+set tabstop=4
 syntax on
-set laststatus=2
+
+"abreviations
+ab pyscript #!/usr/bin/python2.7
+ab shscript #!/bin/sh
 
 if !has('gui_running')
   set t_Co=256
