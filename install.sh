@@ -23,7 +23,12 @@ then
 	mv .zshrc .zshrc.old
 fi
 
+if [ -e .tmux.conf ]
+then
+	mv .tmux.conf .tmux.conf.old
+fi
+
 cd ~/.dotfiles
-stow vim bash zsh
+stow vim bash zsh tmux
 cd ~/
 vim -c PlugInstall .vimrc 
