@@ -25,3 +25,5 @@ fi
 
 cd ~/.dotfiles
 stow vim bash zsh
+cd ~/
+vim -c PlugInstall .vimrc 
