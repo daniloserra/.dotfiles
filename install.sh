@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 apt install -y stow vim tmux zsh
-cd ~/teste/
+cd ~/
 
 if [ -e .vimrc ]
 then
