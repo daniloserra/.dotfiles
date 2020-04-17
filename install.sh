@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-apt install -y stow vim tmux zsh
+apt install -y stow vim tmux zsh ranger
 cd ~/
 
 if [ -e .vimrc ]
