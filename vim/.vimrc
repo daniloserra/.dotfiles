@@ -38,6 +38,7 @@ Plug 'preservim/nerdtree'
 "Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
+Plug 'davidhalter/jedi-vim'
 
 
 call plug#end()
