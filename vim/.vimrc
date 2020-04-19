@@ -1,4 +1,5 @@
 set autoindent
+set mouse=a
 set background=dark
 autocmd FileType text,latex,markdown setlocal spell spelllang=pt_br,en_us
 "set spelllang=pt_br,en_us

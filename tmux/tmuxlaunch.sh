@@ -2,7 +2,7 @@
 
 SESSIONNAME=devpy
 WIN1=python
-WORKINGDIR='~/teste'
+WORKINGDIR='~/'
 
 tmux new-session -d -s $SESSIONNAME
 tmux rename-window -t $SESSIONNAME $WIN1
