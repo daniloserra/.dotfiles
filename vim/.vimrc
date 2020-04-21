@@ -20,7 +20,8 @@ syntax on
 
 let mapleader = ','
 
-map <Leader>. :w<CR>:!clear && python %<CR>
+autocmd FileType python map <Leader>. :w<CR>:!clear && python %<CR>
+autocmd FileType sh map <Leader>. :w<CR>:!clear && ./%<CR>
 map <Leader>s :so ~/.vimrc <CR>
 
 
@@ -40,6 +41,6 @@ Plug 'preservim/nerdtree'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'davidhalter/jedi-vim'
-
+"Plug 'kiteco/vim-plugin'
 
 call plug#end()
