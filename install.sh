@@ -2,7 +2,7 @@
 
 apt install -y stow vim tmux zsh ranger htop
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt install -y nodejs
+apt install -y nodejs npm
 cd ~/
 
 if [ -e .vimrc ]
@@ -33,4 +33,5 @@ fi
 cd ~/.dotfiles
 stow vim bash zsh tmux
 cd ~/
-vim -c PlugInstall .vimrc 
+vim -c PlugInstall .vimrc && .dotfiles/vim/.vim/plugged/YouCompleteMe/install.py --ts-completer
+
