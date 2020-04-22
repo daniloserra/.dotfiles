@@ -1,6 +1,6 @@
 #!/bin/sh 
 
-apt install -y stow vim tmux zsh ranger htop
+apt install -y stow vim tmux zsh ranger htop build-essential cmake python3-dev
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs npm
 cd ~/
