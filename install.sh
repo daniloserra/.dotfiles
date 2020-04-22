@@ -1,6 +1,8 @@
 #!/bin/sh 
 
 apt install -y stow vim tmux zsh ranger htop
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+apt install -y nodejs
 cd ~/
 
 if [ -e .vimrc ]
